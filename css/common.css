@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+html {
+  	height: 100%;
+  	width: 100%;
+  	overflow: hidden;
+  	-ms-scroll-limit: 0 0 0 0;
+}
+html body {
+  	height: 100%;
+  	padding: 0;
+  	overflow: hidden;
+  	-ms-scroll-limit: 0 0 0 0;
+  	margin: 0;
+  	-webkit-overflow-scrolling: touch;
+}
+.viewport {
+	height: 100%;
+  	width: 100%;
+  	overflow: hidden;
+  	-ms-scroll-limit: 0 0 0 0;	
+  	margin: 0;
+  	-webkit-overflow-scrolling: touch;
+}
+
+.dhtmlx_message_area{
+    left:5px;
+    right:auto;
+}
+
+.logText {
+	font-family: 'Courier New'; 
+	font-size: 12px; 
+	color:grey;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.logTextErr {
+	font-family: 'Courier New'; 
+	font-size: 12px; 
+	color:red;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.logTextOk {
+	font-family: 'Courier New'; 
+	font-size: 12px; 
+	color:green;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.logTextWarn {
+	font-family: 'Courier New'; 
+	font-size: 12px; 
+	color:DarkOrange;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.atom {
+	background-image: url(../img/utils/share_big.png);
+   	background-repeat: no-repeat;
+   	background-size: 50px;
+   	padding-left: 52px;
+   	font-size:14px !important;
+   	padding-bottom: 10px;
+}
+
+.hiddenframe{
+	display: none;
+}
+
+/* CUSTOM */
+.sidebar-item {
+	height: 20px;
+	padding-top: 5px;
+}
+
+.dhxsidebar_base_dhx_terrace div.dhxsidebar_cont div.dhxsidebar_side div.dhxsidebar_side_items div.dhxsidebar_item.dhxsidebar_item_selected {
+    z-index: 3;
+    background-color: #94a1ff;
+    color: white;
+}
+
+.dhtmlx_message_area{
+	left:100%;
+	margin-left:-260px;
+}
+
+.dhtmlx-myMessageOK{
+    font-weight:bold !important;
+    color:white !important;
+    background-color:green !important;
+}
+
+.dhtmlx-myMessageError{
+    font-weight:bold !important;
+    color:white !important;
+    background-color:red !important;
+}
+
+.dhx_cell_hdr, .dhxwin_hdr{
+	background-color:#cbf3ff !important;
+}
+
+#first_button_css{
+	background-color:#cbf3ff !important;
+}
+
+.dhx_cell_statusbar_text{
+	background-color:white !important;
+}
+
+.hdrcell{
+	background-color:#cbf3ff !important;
+}
+
+.xhdr{
+	background-color:#cbf3ff !important;
+}
+
+.hdr{
+	background-color:#cbf3ff !important;
+}
+
+.hiddenframe{
+	display: none;
+}
+
+.dhx_cell_toolbar_def{
+	background-color:#ecfaff !important;
+}
+
+.dhx_toolbar_dhx_terrace{
+	background-color:#ecfaff !important;
+}
+
+
+
+
+
+
+
+
+
